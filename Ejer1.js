@@ -1,3 +1,4 @@
+
 var assert= require("assert");
 
 var objeto = {inicio:9, fin:10};
@@ -11,10 +12,10 @@ function suma(inicial, final){
     return sum;
 }
 
-console.log(suma(objeto.inicio,objeto.fin));
+//console.log(suma(objeto.inicio,objeto.fin));
 
 describe("Suma numeros", function(){
   it("inicio:9, fin:10", function(){
-    assert.equals("19",suma(objeto.inicio,objeto.fin));
+    assert.equal("19",suma(objeto.inicio,objeto.fin));
   });
 });

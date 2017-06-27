@@ -18,6 +18,6 @@ var p1=new paciente("Bertha","Contreras",15,"F","Arequipa","Peru");
 
 describe("Ficha de paciente",function(){
   it("Bertha, Contreras, 15, F, Arequipa , Peru", function(){
-    assert.equals("Nombre: Bertha Contreras Edad: 15 Pais: Peru",p1.ficha());
+    assert.equal("Nombre: Bertha Contreras Edad: 15 Pais: Peru",p1.ficha());
   })
 });

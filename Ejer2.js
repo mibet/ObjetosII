@@ -21,8 +21,10 @@ function coders(nombre,edad,ocupacion,genero){
   }
 }
 
-/*
+
 var p1= new coders("Tamara", 22, "Estudiante Laboratoria", "Femenino");
+
+/*
 var p2= new coders("Mario", 15, "Estudiante", "Masculino");
 var p3= new coders("Talia", 26, "Web Developers", "Femenino");
 console.log(p1.mensaje());
@@ -32,6 +34,6 @@ console.log(p3.mensaje());
 
 describe("Las Super Coder",function(){
   it("Tamara, 22, Estudiante Laboratoria, Femenino", function(){
-    assert.equals("You're Awesome",p1.mensaje());
+    assert.equal("You're Awesome",p1.mensaje());
   });
 });
